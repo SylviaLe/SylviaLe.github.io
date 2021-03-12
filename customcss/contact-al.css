@@ -1,0 +1,197 @@
+body, html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h4{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 140px; /* height of your footer */
+    }
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/contact-bg.jpg");
+
+/* Set a specific height */
+    height: 80%;
+
+/* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: auto;
+}
+
+li a{
+    display: inline-block;
+    padding: 3px 15px;
+    text-decoration: none;
+    color:  rgb(110, 110, 110);
+}
+
+li a:hover{
+    color:  rgb(56, 56, 56);
+}
+
+div.form{
+    width:45%; 
+    float: left; 
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+div.image{
+    width: 45%; 
+    float: left; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+input,textarea,button{
+    padding: 5px 3px; 
+    line-height: 28px;
+    border: 0.5px solid rgb(201, 204, 209);
+    border-radius: 5px;
+}
+
+div.name-input{
+    float:left; 
+    width: 48%; 
+    margin-right: 4%;
+    margin-top: 30px;
+}
+
+div.mail-input{
+    float:left; 
+    width: 48%;
+    margin-top: 30px;
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input.name-input,input.mail-input{
+    width:100%;
+}
+
+input#subject,textarea#message{
+    display: block; 
+    width: 100%;
+}
+
+img{
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover;
+}
+
+button{
+    background-color:#0d6efd;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 12px;
+    font-size: 16px;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(250, 250, 250)
+}
+
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+div.alert{
+    background-color: rgba(25, 135, 84, 0.2);
+    border-radius: 5px;
+    padding: 3px 10px;
+
+}
+
+div.alert p{
+    color: #0f5132;
+    padding-left: 5px;
+}
+
+
+@media (max-width:600px){
+    h1{
+        font-size: 4rem;
+    }
+    div.form{
+        width: 80%;
+        margin-left: 40px;
+    }
+    img{
+        display: none;
+    }
+    div.name-input, div.mail-input,div.alert{
+        float:clear; 
+        width: 100%;
+        margin-top: 10px
+    }
+
+}

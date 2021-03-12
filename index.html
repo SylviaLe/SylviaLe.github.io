@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css" >
+	<link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/solid.css" >
+    <link rel="stylesheet" href="./customcss/index.css" >
+
+    <title>Sylvia Le's Portfolio Site</title>
+    <style>
+        body{
+            background-image: url(./imgs/bg.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <div class="container-fluid">
+      <!-- To make things don't stick to the edge -->
+
+    <button class="navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarMenu">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <!-- me is margin or padding right. This push things away from the right side -->
+          <li class="nav-item px-2">
+            <a href="index.html" class="nav-link">Home</a>
+            </li>  
+
+          <li class="nav-item px-2">
+            <a href="project.html" class="nav-link">Code Project</a>
+            </li>
+            
+            <li class="nav-item px-2">
+                <a href="other.html" class="nav-link">Other Exp</a>
+            </li>
+            
+            <li class="nav-item px-2">
+                <a href="gallery.html" class="nav-link">Arts and Photos</a>
+            </li>
+
+            <li class="nav-item px-2">
+                <a href="contact.html" class="nav-link">Contact me</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+
+<div class="container w-70">
+    <section class="banner">
+        <div class="row mx-5 my-5">
+            <div class="col-md-6">
+                <h1>Hi, </h1>
+                <h1>
+                    <span>it's</span>
+                    <span>Sylvia</span>
+                </h1>
+                <h4>
+                    Computer Science major at Connecticut College
+                </h4>
+                <a class="btn btn-outline-info text-info">About me</a>
+                <a class="btn btn-dark text-info">View my Resume</a>
+            </div>
+            <div class="col-md-6">
+                <img src="./imgs/header-removebg-preview.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about">
+        <div class="row mx-5 my-5">
+            <div class="col-md-6">
+                <img src="./imgs/about.jpg" alt="" class="rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-end">About me</h2>
+                <p class="lh-lg text-end">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Programming</h4>
+                <p>Python</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;"></div>
+                </div>
+                <p>Java</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;"></div>
+                </div>
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;"></div>
+                </div>
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;"></div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <h4>Spoken Languages</h4>
+                <p>English</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;"></div>
+                </div>
+                <p>Chinese</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;"></div>
+                </div>
+                <p>Vietnamese</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="exp">
+        <div class="row mx-5 my-5">
+            <div class="col-md-6">
+                <h2>Experience</h2>
+                <div class="row my-5 mx-auto">
+                    <div class="col-md-6">
+                        <i class="far fa-file-code fa-5x"></i>
+                        <a class="btn btn-dark text-info">View coding projects</a>
+                    </div>
+                    <div class="col-md-6">
+                        <i class="fab fa-creative-commons-nd fa-5x"></i>
+                        <a class="btn btn-dark text-info">View other experience</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./imgs/code-bg__1_-removebg-preview.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+<footer class="bg-light text-center text-lg-start">
+    <!-- Section: Social media -->
+    <section class="mb-1 text-center">
+        <!-- Facebook -->
+        <a class="btn m-1" href="#!" role="button">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a class="btn m-1" href="#!" role="button">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <!-- Linkedin -->
+        <a class="btn m-1" href="#!" role="button">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <!-- Github -->
+        <a class="btn m-1" href="#!" role="button">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <!-- Wordpress -->
+        <a class="btn m-1" href="#!" role="button">
+            <i class="fab fa-wordpress-simple"></i>
+        </a>
+    </section>
+
+    <div class="text-center p-3">
+      © 2021 Copyright:
+      <a class="text-dark">Sylvia Le</a>
+    </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+
+</body>
+
+</html>
