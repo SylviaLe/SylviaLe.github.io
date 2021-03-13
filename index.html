@@ -8,17 +8,9 @@
     <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css" >
 	<link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/solid.css" >
     <link rel="stylesheet" href="./customcss/index.css" >
+    
 
     <title>Sylvia Le's Portfolio Site</title>
-    <style>
-        body{
-            background-image: url(./imgs/bg.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-    </style>
 </head>
 
 <body>
@@ -37,17 +29,9 @@
           <li class="nav-item px-2">
             <a href="index.html" class="nav-link">Home</a>
             </li>  
-
-          <li class="nav-item px-2">
-            <a href="project.html" class="nav-link">Code Project</a>
-            </li>
             
             <li class="nav-item px-2">
-                <a href="other.html" class="nav-link">Other Exp</a>
-            </li>
-            
-            <li class="nav-item px-2">
-                <a href="gallery.html" class="nav-link">Arts and Photos</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
             </li>
 
             <li class="nav-item px-2">
@@ -71,11 +55,11 @@
                 <h4>
                     Computer Science major at Connecticut College
                 </h4>
-                <a class="btn btn-outline-info text-info">About me</a>
-                <a class="btn btn-dark text-info">View my Resume</a>
+                <a class="btn btn-outline-info text-info my-5">About me</a>
+                <a class="btn btn-dark text-info my-5">View my Resume</a>
             </div>
             <div class="col-md-6">
-                <img src="./imgs/header-removebg-preview.png" alt="" class="img-fluid">
+                <img src="./imgs/header-removebg-preview.png" alt="" class="img-fluid d-none d-lg-block d-xl-block">
             </div>
         </div>
     </section>
@@ -83,11 +67,11 @@
 
     <section class="about">
         <div class="row mx-5 my-5">
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
                 <img src="./imgs/about.jpg" alt="" class="rounded-circle">
             </div>
             <div class="col-md-6">
-                <h2 class="text-end">About me</h2>
+                <h2 class="text-center text-lg-end text-xl-end">About me</h2>
                 <p class="lh-lg text-end">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
                 </p>
@@ -140,16 +124,115 @@
     </section>
 
 
-    <section class="exp">
+
+
+    <section class="projects">
+        <div class="row my-5">
+            <h2 class="text-center">Code Projects</h2>
+        </div>
+        <div class="divider">
+        </div>
+    
+        <div class="row my-5">
+            <div class="col-md-8">
+                <h3>CCATE Tech Website</h3>
+                <h4>September - December 2020</h4>
+                <p class="lh-lg text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+                <a class="btn btn-dark text-info proj">View site</a>
+            </div>
+            <div class="col-md-4 my-5">
+                <img src="./imgs/ccate.png" class="img-fluid">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-8">
+                <h3>Coin Collector</h3>
+                <h4>December 2019</h4>
+                <p class="lh-lg text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+                <a class="btn btn-dark text-info proj">View source code</a>
+            </div>
+            <div class="col-md-4 my-5">
+                <img src="./imgs/CoinC.png" class="img-fluid">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-8">
+                <h3>Black Jack</h3>
+                <h4>November 2019</h4>
+                <p class="lh-lg text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+                <a class="btn btn-dark text-info proj">View source code</a>
+            </div>
+            <div class="col-md-4 my-5">
+                <img src="./imgs/BJ.png" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="other">
+        <div class="row my-5">
+            <h2 class="text-center">Other Experience</h2>
+        </div>
+        <div class="divider">
+        </div>
+    
+        <div class="row my-5">
+            <div class="col-md-8">
+                <h3>Computer Science Teacher Assistant</h3>
+                <h4>November 2020 - Present</h4>
+                <p class="lh-lg text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+            <div class="col-md-4">
+                <img src="./imgs/csta.png" class="img-fluid">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-8">
+                <h3>APAX English Teaching Assistant</h3>
+                <h4>August 2020 - Present</h4>
+                <p class="lh-lg text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+            <div class="col-md-4">
+                <img src="./imgs/apax.jpg" class="img-fluid">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-8">
+                <h3>International Adviser</h3>
+                <h4>April 2020 - Present</h4>
+                <p class="lh-lg text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+            <div class="col-md-4">
+                <img src="./imgs/conn.png" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="exp">
         <div class="row mx-5 my-5">
-            <div class="col-md-6">
+            <div class="col-md-12 text-center text-lg-start text-xl-start">
                 <h2>Experience</h2>
                 <div class="row my-5 mx-auto">
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-center">
                         <i class="far fa-file-code fa-5x"></i>
                         <a class="btn btn-dark text-info">View coding projects</a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-center">
                         <i class="fab fa-creative-commons-nd fa-5x"></i>
                         <a class="btn btn-dark text-info">View other experience</a>
                     </div>
@@ -159,7 +242,7 @@
                 <img src="./imgs/code-bg__1_-removebg-preview.png" alt="" class="img-fluid">
             </div>
         </div>
-    </section>
+    </section> -->
 </div>
 
 
